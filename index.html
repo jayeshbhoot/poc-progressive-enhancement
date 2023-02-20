@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Progressive Enhancement POC</title>
+    <link type='text/css'
+          rel='stylesheet'
+          href='index.css'>
+</head>
+<body>
+    <form action=''
+          name='poc'>
+        <p>
+            <label for='name'>
+                <span>Name</span>
+                <span aria-hidden='true'>Name is required</span>
+            </label>
+            <input type='text'
+                   name='name'
+                   id='name'
+                   value='Jayesh'>
+        </p>
+        <p>
+            <label for='age'>
+                <span>Age</span>
+                <span aria-hidden='true'>Age is required</span>
+                <span aria-hidden='true'>Age must be a number</span>
+            </label>
+            <input type='text'
+                   name='age'
+                   id='age'
+                   value='32'>
+        </p>
+        <p>
+            <label for='city'>
+                <span>City</span>
+                <span aria-hidden='true'>City must be in India</span>
+            </label>
+            <input type='text'
+                   name='city'
+                   id='city'
+                   value='Pune'>
+        </p>
+        <button type='submit'>Save</button>
+    </form>
+    <script src='index.js'></script>
+</body>
+</html>

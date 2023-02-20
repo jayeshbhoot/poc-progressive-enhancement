@@ -1,0 +1,11 @@
+label {
+    display: block;
+}
+
+label > * {
+    display: block;
+}
+
+[aria-hidden=true] {
+    display: none;
+}
